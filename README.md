@@ -48,6 +48,13 @@ You can take another sprite file and generate a new one with some modification t
 ```
 svg-sprite-generate -s path/to/sprite.svg -l path/to/extra.svg,path/to/another-extra-one.svg -o new-sprite.svg
 ```
+
+If you want to add a bunch of new svg from a foder:
+
+```
+svg-sprite-generate -s path/to/sprite.svg -d path/to/extra_svg -o new-sprite.svg
+
+```
 ### About
 
 SVG Sprite Generator is created by the folks at [SmartIcons](https://smarticons.co)
